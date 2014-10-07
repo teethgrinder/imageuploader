@@ -1,0 +1,24 @@
+{
+  "name": "imageuploader",
+  "version": "1.0.0",
+  "description": "An app to upload user images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teethgrinder/imageuploader.git"
+  },
+  "keywords": [
+    "upload",
+    "nodejs",
+    "image"
+  ],
+  "author": "Burak AKIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teethgrinder/imageuploader/issues"
+  },
+  "homepage": "https://github.com/teethgrinder/imageuploader"
+}
