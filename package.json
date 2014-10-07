@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/teethgrinder/imageuploader/issues"
   },
-  "homepage": "https://github.com/teethgrinder/imageuploader"
+  "homepage": "https://github.com/teethgrinder/imageuploader",
+  "dependencies": {
+    "connect": "^2.14.1",
+    "express": "^3.5.3",
+    "express3-handlebars": "^0.5.2"
+  }
 }
