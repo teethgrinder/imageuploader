@@ -32,10 +32,10 @@ module.exports = {
 					comment: 	'Another following comment comment...',
 					timestamp: 	Date.now()
 				},
-				
+
 			]
 		};
-		sidebar(viewModel, function (viewModel) {
+		sidebar(viewModel, function (err, viewModel) {
 			res.render('image', viewModel);
 		});
 	},
