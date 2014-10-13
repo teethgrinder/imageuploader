@@ -1,5 +1,5 @@
 var Stats = require('./stats'), Images = require('./images'), Comments = require('./comments');
-console.log(Stats.images);
+ 
 module.exports = function (viewModel, callback) {
 
 	viewModel.sidebar = {

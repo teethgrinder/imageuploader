@@ -25,6 +25,8 @@
     "connect": "^2.14.1",
     "express": "^3.5.3",
     "express3-handlebars": "^0.5.2",
-    "moment": "^2.8.3"
+    "moment": "^2.8.3",
+    "mongodb": "^1.4.19",
+    "mongoose": "^3.8.17"
   }
 }

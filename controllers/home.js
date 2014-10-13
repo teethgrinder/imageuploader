@@ -44,7 +44,7 @@ module.exports = {
 
 			]
 		};
-		sidebar(viewModel, function (viewModel) {
+		sidebar(viewModel, function (err, viewModel) {
 			res.render('index', viewModel);
 		});
 		
