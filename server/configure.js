@@ -1,6 +1,5 @@
-var sidebar = require('../helpers/sidebar');
-var connect = require('connect'),
-
+var 	sidebar = require('../helpers/sidebar'),
+	connect = require('connect'),
 	path = require('path'),
 	routes = require('./routes'),
 	exphbs = require('express3-handlebars'),
