@@ -15,7 +15,7 @@ module.exports = {
                 };
 
                 async.each(comments, attachImage, 
-                    function(err) {
+                    function(err,comments) {
                         if (err) throw err;
                         callback(err, comments);
                     });
