@@ -12,7 +12,7 @@ module.exports = {
                 if (err) { throw err; }
 
                 viewModel.images = images;
-                sidebar(viewModel, function(err, viewModel) {
+                sidebar(viewModel, function(viewModel) {
                     res.render('index', viewModel);
                 });
             });

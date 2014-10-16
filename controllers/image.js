@@ -25,7 +25,7 @@ module.exports = {
                         { sort: { 'timestamp': 1 }},
                         function(err, comments){
                             viewModel.comments = comments;
-                            sidebar(viewModel, function(err, viewModel) {
+                            sidebar(viewModel, function(viewModel) {
                                 res.render('image', viewModel);
                             });
                         }
